@@ -14,15 +14,15 @@
 
 @implementation TestCell
 
-- (id)initWithStyle:(UITableViewCellStyle)style  reuseIdentifier:(nullable NSString *)ident
-{
-    self = [super initWithStyle:style reuseIdentifier:ident];
-    if (self)
-    {
-    }
-
-    return self;
-}
+//- (id)initWithStyle:(UITableViewCellStyle)style  reuseIdentifier:(nullable NSString *)ident
+//{
+//    self = [super initWithStyle:style reuseIdentifier:ident];
+//    if (self)
+//    {
+//    }
+//
+//    return self;
+//}
 
 - (void)awakeFromNib
 {
