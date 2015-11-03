@@ -95,7 +95,7 @@
     {
         [cell updateMiddleLabelWithString:[self.section0Data objectAtIndex:indexPath.row]];
     }
-    if (indexPath.section == 1)
+    else if (indexPath.section == 1)
     {
         [cell updateMiddleLabelWithString:[self.section1Data objectAtIndex:indexPath.row]];
     }
@@ -125,8 +125,7 @@
         {
             [self.section0Data removeObjectAtIndex:indexPath.row];
         }
-
-        if (indexPath.section == 1)
+        else if (indexPath.section == 1)
         {
             [self.section1Data removeObjectAtIndex:indexPath.row];
         }
